@@ -8,7 +8,7 @@ class Student:
         return f"Name: {self.name}, Age: {self.age}, Grade: {self.grade}"
 
 # Example usage:
-student1 = Student("John Doe", 18, "A")
+student1 = Student("John Doe: ", 18, "A")
 student2 = Student("Jane Smith", 17, "B")
 
 print(student1.display_info())
